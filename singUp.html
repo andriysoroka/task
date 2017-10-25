@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>wristo</title>
+        <link rel="stylesheet" href="/dist/main2.css" type="text/css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="logo-container-sing">
+            <div class="logo">
+                <a href="#" >
+                    <img src="/img/logo.png" alt="logo"/>
+                </a>
+            </div>
+        </div>
+        <main class="main-container-sing">
+            <div class="log-in-container">
+                <h1>Sign Up</h1>
+                <form>
+                    <div class="form-container">
+                        <label for="firstName">First name</label><span class="star">*</span><br>
+                        <input id="firstName" type="text" name="firstName" placeholder="Nancy" required><br>
+                    </div>
+                    <div class="form-container">
+                        <label for="lastName">Last Name</label><span class="star">*</span><br>
+                        <input id="lastName" type="text" name="lastName" placeholder="McQueen" required><br>
+                    </div>
+                    <div class="form-container">
+                        <label for="email">Email</label><span class="star">*</span><br>
+                        <input id="email" type="email" name="name" placeholder="user@mail.com" required><br>
+                    </div>
+                    <div class="form-container space">
+                        <label for="password">Password</label><span class="star">*</span><br>
+                        <input id="password" type="password" name="password">
+                        <button type="button" class="show-password" onclick="if(password.type=='text')password.type='password'; else password.type='text';">show
+</button><br>
+                    </div>
+                    <input type="submit" value="Create account">
+                    <p class="log-in-container"><a href="/dist/singIn.html">Go back to log in</a></p>
+                </form>
+            </div>  
+        </main>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+.header {
+    height: 63px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #d2d2d2; 
+    padding: 0 21px 0 30px;
+    .logo-container { 
+        img {
+            width: 180px;
+            height: 35px;
+        }
+    }
+
+    .nav-container {
+        width: 45%;
+        height: 100%; 
+    }
+
+    .menu {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        box-sizing: border-box;
+
+
+        .link-container {
+            flex-basis: 25%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .nav-link:hover {
+            background: red; 
+        }
+
+        .nav-link {
+            box-sizing: border-box;
+      .menu {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        box-sizing: border-box;
+
+
+        .link-container {
+            flex-basis: 25%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .nav-link:hover {
+            background: red; 
+        }
+
+        .nav-link {
+            box-sizing: border-box;
+            text-decoration: none;
+            align-content: center;
+            padding: 30px 27px 19px;
+
+            span {
+                position: relative;
+                bottom: 5px;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .user {
+        img {
+            width: 33px;
+            height: 33px;
+            border-radius: 40px; 
+        }
+    }
+    .color {
+        fill: #B52F54;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .inline-block {
+        display: inline-block;
+    }          text-decoration: none;
+            align-content: center;
+            padding: 30px 27px 19px;
+
+            span {
+                position: relative;
+                bottom: 5px;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .user {
+        img {
+            width: 33px;
+            height: 33px;
+            border-radius: 40px; 
+        }
+    }
+    .color {
+        fill: #B52F54;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .inline-block {
+        display: inline-block;
+    }
+}

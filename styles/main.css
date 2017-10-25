@@ -1,0 +1,117 @@
+@font-face {
+    font-family: DinRro-regular;
+    src: url(/fonts/DINPro-Regular_13937.ttf);
+}
+@font-face {
+    font-family: DinRro-medium;
+    src: url(/fonts/DINPro-Medium_13936.ttf);
+}
+body{
+    background: #f5f5f5;
+}
+.logo-container-sing {
+    width: 100%;
+    margin-top: 32px;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    height: 25px;
+    
+}
+.main-container-sing {
+    margin-top: 85px;
+}
+main {
+    width: 100%;
+    margin-top: 153px;
+}
+.log-in-container {
+    margin: 0 auto;
+    display: flex;
+    display: -ms-flex;
+    display : -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    align-items: center;
+    -webkiy-align-items: center;
+    -ms-align-items: center;
+    width: 100%;
+}
+h1 {
+    font-size: 72px;
+    line-height: 1.33;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: DinRro-medium;
+    margin-bottom: 24px;
+}
+form {
+    width: 400px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.form-container {
+    font-family: DinRro-medium;
+    margin-top: 16px;
+    font-size: 14px;
+}
+form > input:last-of-type {
+    background: #b52f54;
+    color: #ffffff;
+    width: 400px;
+    font-weight: 500;
+}
+[type="submit"]:hover {
+    cursor: pointer;
+}
+label {
+    padding-bottom: 10px;
+    text-align: left;
+}
+form a {
+    color: #b52f54;
+    text-decoration: none;
+}
+form  input {
+    height: 40px;
+    width: 400px;
+    font-family: DinRro-regular;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    margin-top: 7px;
+}
+.forgotPass {
+    text-align: right;
+    margin-bottom: 24px;
+}
+p {
+    font-family:  DinRro-regular;
+    font-size: 14px;
+}
+.space {
+    margin-bottom: 24px;
+    position: relative;
+}
+.star {
+    color: #b52f54;
+    margin-left: 3px;
+}
+.show-password {
+    padding: 0;
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: 14px;
+    right: 16px;
+    color: #b52f54;
+}
+.log-in-container {
+    text-align: center;
+    margin-top: 24px;
+}

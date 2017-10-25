@@ -1,0 +1,313 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+button:hover {
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    background: #F5F5F5;
+}
+
+header {
+    height: 63px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #d2d2d2; 
+    padding: 0 21px 0 30px;
+}
+
+.logo-container > img {
+  width: 180px;
+  height: 35px; }
+
+.nav-container {
+  width: 45%;
+  height: 100%; }
+
+.menu {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+.link-container {
+    flex-basis: 25%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.link-container a{
+    
+}
+.nav-link:hover {
+    background: red; 
+}
+
+.nav-link {
+    box-sizing: border-box;
+    text-decoration: none;
+    align-content: center;
+    padding: 30px 27px 19px;
+}
+
+  .nav-link > span {
+    position: relative;
+    bottom: 5px;
+    text-transform: uppercase;
+}
+
+.user > img {
+  width: 33px;
+  height: 33px;
+  border-radius: 40px; }
+.color {
+    fill: #B52F54;
+}
+.text-center {
+    text-align: center;
+}
+.inline-block {
+    display: inline-block;
+}
+
+/*# sourceMappingURL=master.css.map */
+.main {
+    margin-top: 0;
+    width: 100%;
+    padding: 0 19px 19px 19px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.icon-container {
+    height: 59px;
+    margin: 9px 0 8px;
+}
+.group-icon {
+    display: inline-block;
+    width: 90px;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.group-icon:hover {
+    background: #E1E1E1;
+    cursor: pointer;
+}
+.svg-block {
+    display: block;
+    margin: auto;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.map-container {
+    width: 68.15%;
+}
+.map-header-container {
+    width: 100%;
+    height: 51px;
+    box-sizing: border-box;
+    background: #B52F54;
+}
+.head-map {
+    margin: 18px 0 18px 31px;
+    color: #FFFFFF;
+}
+.map-icon-container {
+    display: inline-block;
+    float: right;
+    margin: 15px 20px 18px;
+}
+
+.map-icon-container > button {
+    background: inherit;
+    border: none;
+}
+.map {
+    width: 100%;
+    height: 635px;
+}
+.map > iframe {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 10px;
+    resize: vertical;
+    overflow: hidden; 
+}
+.right-user-container {
+    width: 386px;
+}
+
+.wearers-container-header {
+    height: 51px;
+    width: 100%;
+    background: #B52F54;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.wearers-container-header > div {
+    display: inline-block;
+    color: #FFFFFF;
+}
+.wearers-container-header-icons {
+    float: right;
+    display: inline-block;
+}
+.wearers-container-header-icons > button {
+    border: none;
+    background: inherit;
+}
+.wearers-container-group {
+    width: 384px;
+    margin: 0 auto;
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    border-color: #E5E5E5;
+    background: #FFFFFF;
+/*    box-shadow: 1px 1px #E5E5E5;*/
+}
+.wearers-container-group-wearer {
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+}
+.wearers-container-group-wearer:first-of-type {
+    height: 50px;
+    width: 100%;
+    padding-top: 5px;
+}
+.wearers-container-group-add {
+    width: 384px;
+    height: 49px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #E5E5E5;
+    resize: vertical;
+    overflow: hidden; 
+}
+.wearers-container-group-add  button {
+    border: none;
+    background: inherit;
+}
+.wearers-container-group-add > div {
+    padding: 13px 25px;
+    box-sizing: border-box;
+}
+.wearers-container-group-add span {
+    position: relative;
+    bottom: 5px;
+    color: #B52F54;
+}
+.wearers-container-group-wearer > div {
+    height: 33px;
+    box-sizing: border-box;
+    margin: 6px 15px 6px 20px;
+}
+.wearers-container-group-wearer-avatar {
+    display: inline-block;
+}
+.wearers-container-group-wearer-avatar > img {
+    widows: 33px;
+    height: 33px;
+    border-radius: 40px;
+}
+.wearers-container-group-wearer-avatar > span {
+    position: relative;
+    bottom: 12px;
+}
+.wearers-container-group-wearer-icons {
+    display: inline-block;
+    float: right;
+}
+.wearers-container-group-wearer-icons > button {
+    background: #ffffff;
+    border: 1px solid #E5E5E5;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.notifications-container {
+    margin-top: 28px;
+    background: #FFFFFF;
+}
+.notifications-container-events {
+    width: 384px;
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: #E5E5E5;
+}
+.notifications-container-event-wearer {
+    height: 80px;
+    border-bottom: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.notifications-container-event-wearer > img {
+    width: 33px;
+    height: 33px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+.notifications-wearer-event {
+    margin-left: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+}
+.notifications-container-event-all {
+    height: 46px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #E5E5E5;
+    color: #B8B8B8;
+    padding: 12px 26px 18px;
+    box-sizing: border-box;
+}
+.tile-container {
+    margin-top: 25px;
+    box-sizing: border-box;
+    width: 386px;
+    height: 73px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tile-container button {
+    border: none;
+    background: inherit;
+}
+.tile-container span {
+    color: #565656;
+    position: relative;
+    bottom: 5px;
+}
+.footer-container {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+.footer-container a {
+    text-decoration: none;
+    color: #565656;
+}
+
