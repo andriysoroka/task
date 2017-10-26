@@ -1,31 +1,28 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+//const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
 
-const extractSass = new ExtractTextPlugin({
-    filename: 'main2.css',
-    disable: process.env.NODE_ENV === 'development'
-});
+//const extractSass = new ExtractTextPlugin({
+//    filename: 'main2.css',
+//    disable: process.env.NODE_ENV === 'development'
+//});
 
   module.exports = {
-    entry: './scripts/app.js',
+    entry: './scripts/main.js',
     output: {
       filename: 'bundle.js',
       path: path.resolve(__dirname, 'dist')
     },
    module: {
-     rules: [
-       {
+     rules: [{
          test: /\.(css|scss)$/,
-         use: extractSass.extract({ 
-             use: [{
-               loader:  'css-loader'
-             }, {
-                 loader: 'sass-loader'
-             }],
-             fallback: 'style-loader'
-         })
-         
-       },
+         use: [{
+            loader:  'style-loader'
+         }, {
+             loader: 'css-loader'
+         },{
+             loader: 'sass-loader'
+         }]
+     },
          { 
              test: /\.js$/, 
              exclude: /(node_modules|bower_components)/, 
@@ -36,7 +33,7 @@ const extractSass = new ExtractTextPlugin({
          }
      ]
    },
-  plugins: [
-       extractSass
-  ]
+//  plugins: [
+//       extractSass
+//  ]
   };
