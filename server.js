@@ -36,7 +36,7 @@ http.createServer(function (req, res) {
     }
     // if is a directory, then look for index.html
     if (fs.statSync(pathname).isDirectory()) {
-      pathname += 'master.html';
+      pathname += 'index.html';
     }
     // read file from file system
     fs.readFile(pathname, function(err, data){
