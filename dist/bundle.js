@@ -169,7 +169,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(6)(content, options);
+var update = __webpack_require__(7)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -193,6 +193,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 // imports
 exports.i(__webpack_require__(4), "");
 exports.i(__webpack_require__(5), "");
+exports.i(__webpack_require__(6), "");
 
 // module
 exports.push([module.i, "\n", ""]);
@@ -230,6 +231,20 @@ exports.push([module.i, ".header {\n    height: 63px;\n    display: flex;\n    f
 
 /***/ }),
 /* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "@font-face {\n    font-family: DinRro-regular;\n    src: url(/fonts/DINPro-Regular_13937.ttf);\n}\n@font-face {\n    font-family: DinRro-medium;\n    src: url(/fonts/DINPro-Medium_13936.ttf);\n}\nbody{\n    background: #f5f5f5;\n}\n.logo_container_sing {\n    width: 100%;\n    margin-top: 32px;\n}\n.logo_container_sing .logo {\n    text-align: center;\n}\n.logo img {\n    height: 25px;\n    \n}\n.main_container_sing {\n    margin-top: 85px;\n}\nmain {\n    width: 100%;\n    margin-top: 153px;\n}\n.log_in_container {\n    margin: 0 auto;\n    display: flex;\n    display: -ms-flex;\n    display : -webkit-flex;\n    flex-direction: column;\n    -webkit-flex-direction: column;\n    -ms-flex-direction: column;\n    align-items: center;\n    -webkiy-align-items: center;\n    -ms-align-items: center;\n    width: 100%;\n    text-align: center;\n    margin-top: 24px;\n}\nh1 {\n    font-size: 72px;\n    line-height: 1.33;\n    font-weight: 500;\n    color: rgba(0, 0, 0, 0.5);\n    font-family: DinRro-medium;\n    margin-bottom: 24px;\n}\nform {\n    width: 400px;\n    box-sizing: border-box;\n    text-align: left;\n}\n.form_container {\n    font-family: DinRro-medium;\n    margin-top: 16px;\n    font-size: 14px;\n}\nform > input:last-of-type {\n    background: #b52f54;\n    color: #ffffff;\n    width: 400px;\n    font-weight: 500;\n}\n[type=\"submit\"]:hover {\n    cursor: pointer;\n}\nlabel {\n    padding-bottom: 10px;\n    text-align: left;\n}\nform a {\n    color: #b52f54;\n    text-decoration: none;\n}\nform  input {\n    height: 40px;\n    width: 400px;\n    font-family: DinRro-regular;\n    border: 1px solid #ececec;\n    border-radius: 4px;\n    background-color: #ffffff;\n    padding: 12px 16px;\n    box-sizing: border-box;\n    margin-top: 7px;\n}\n.forgot-pass {\n    text-align: right;\n    margin-bottom: 24px;\n}\np {\n    font-family:  DinRro-regular;\n    font-size: 14px;\n}\n.space {\n    margin-bottom: 24px;\n    position: relative;\n}\n.star {\n    color: #b52f54;\n    margin-left: 3px;\n}\n.show_password {\n    padding: 0;\n    background: none;\n    border: none;\n    position: absolute;\n    bottom: 14px;\n    right: 16px;\n    color: #b52f54;\n}\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -285,7 +300,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(7);
+var	fixUrls = __webpack_require__(8);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -601,7 +616,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports) {
 
 
