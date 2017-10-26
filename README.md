@@ -1,7 +1,7 @@
-#WRISTO
+# WRISTO
 ***
 
-##RUN THE APLICATION
+## RUN THE APLICATION
 
 npm install
 
