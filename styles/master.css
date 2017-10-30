@@ -238,6 +238,7 @@ header {
     position: relative;
     bottom: 5px;
     color: #B52F54;
+	font-size: 15px;
 }
 .wearers-container-group-wearer > div {
     height: 33px;
@@ -314,11 +315,12 @@ header {
     border-style: solid;
     border-color: #E5E5E5;
     color: #B8B8B8;
-    padding: 12px 26px 18px;
+    padding: 17px 26px 18px;
     box-sizing: border-box;
 	resize: vertical;
 	overflow: auto;
 	line-height: 10px;
+	font-size: 15px;
 }
 .tile-container {
 	display: inline-block;
