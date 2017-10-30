@@ -51,9 +51,19 @@ header {
     flex-basis: 135px;
     text-align: center;
     box-sizing: border-box;
+	position: relative;
 }
 .link-container:first-of-type, .link-container:last-of-type {
 	flex-basis: 113px;
+}
+.notification {
+	height: 10px;
+	width: 11px;
+	background: #B52F54;
+	border-radius: 5px;
+	position: absolute;
+	top: 0;
+	left: 32px;
 }
 .nav-link:hover {
     background: #C1C1C1; 
@@ -66,7 +76,7 @@ header {
     padding: 34px 27px 17px;
 }
 .nav-link:first-of-type, .nav-link:last-of-type {
-	padding: 34px 20px 17px;
+	padding: 34px 18px 17px;
 }
 
   .nav-link > span {
@@ -306,8 +316,12 @@ header {
     color: #B8B8B8;
     padding: 12px 26px 18px;
     box-sizing: border-box;
+	resize: vertical;
+	overflow: auto;
+	line-height: 10px;
 }
 .tile-container {
+	display: inline-block;
     margin-top: 25px;
     box-sizing: border-box;
     width: 386px;
@@ -333,6 +347,10 @@ header {
     position: relative;
     bottom: 10px;
 }
+.footer-container a:first-of-type {
+	padding-right: 30px;
+}
+
 .footer-container a {
     text-decoration: none;
     color: #565656;
