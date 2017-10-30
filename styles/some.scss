@@ -12,7 +12,9 @@
             height: 35px;
         }
     }
-
+	.logo-container:hover {
+		cursor: pointer;
+	}
     .nav-container {
         width: 45%;
         height: 100%; 
@@ -29,14 +31,15 @@
 
 
         .link-container {
-            flex-basis: 25%;
+            flex-basis: 135px;
             text-align: center;
             box-sizing: border-box;
+			:first-of-type, :last-of-type {
+				flex-basis: 113px;
+			}
         }
-
-        .nav-link:hover {
-            background: red; 
-        }
+		
+ 
 
         .nav-link {
             box-sizing: border-box;
