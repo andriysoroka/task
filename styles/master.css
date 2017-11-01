@@ -408,6 +408,7 @@ header {
     display: inline-block;
     position: relative;
     bottom: 10px;
+    padding: 0 19px;
 }
 .footer-container a:first-of-type {
 	padding-right: 30px;
