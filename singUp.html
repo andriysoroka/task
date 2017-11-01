@@ -19,27 +19,28 @@
                 <form>
                     <div class="form-container">
                         <label for="firstName">First name</label><span class="star">*</span><br>
-                        <input id="firstName" type="text" name="firstName" placeholder="Nancy" required><br>
+                        <input id="firstName" type="text" name="firstName" placeholder="Nancy" value="" required><br>
                     </div>
                     <div class="form_container">
                         <label for="lastName">Last Name</label><span class="star">*</span><br>
-                        <input id="lastName" type="text" name="lastName" placeholder="McQueen" required><br>
+                        <input id="lastName" type="text" name="lastName" placeholder="McQueen" value="" required><br>
                     </div>
                     <div class="form_container">
                         <label for="email">Email</label><span class="star">*</span><br>
-                        <input id="email" type="email" name="name" placeholder="user@mail.com" required><br>
+                        <input id="email" type="email" name="name" placeholder="user@mail.com" value="" required><br>
                     </div>
                     <div class="form_container space">
                         <label for="password">Password</label><span class="star">*</span><br>
-                        <input id="password" type="password" name="password">
+                        <input id="password" type="password" name="password" value=""   >
                         <button type="button" class="show_password" onclick="if(password.type=='text')password.type='password'; else password.type='text';">show
 </button><br>
                     </div>
-                    <input type="submit" value="Create account">
+                    <input type="button" value="Create account" onclick="getInfo()">
                     <p class="log_in_container"><a href="/dist/singIn.html">Go back to log in</a></p>
                 </form>
             </div>  
         </main>
         <script src="dist/bundle.js"></script>
+        <script src="scripts/sendFrom.js"></script>
     </body>
 </html>
