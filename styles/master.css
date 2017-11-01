@@ -96,7 +96,7 @@ header {
     padding: 34px 27px 17px;
 }
 .nav-link:first-of-type, .nav-link:last-of-type {
-	padding: 34px 18px 17px;
+	padding: 34px 15px 17px;
 }
 
   .nav-link > span {
@@ -105,6 +105,10 @@ header {
     text-transform: uppercase;
 	font-family: HelveticaNeueBold;
 	  font-size: 11px;
+      color: #242424;
+      font-weight: 400;
+      font-size: 13px;
+      box-sizing: border-box;
 }
 .user-container {
     margin-top: 5px;
