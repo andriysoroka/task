@@ -244,6 +244,7 @@ header {
 }
 .carers-group:hover {
     border-bottom: 2px solid #BD0555;
+    color: #BD0555;
 }
 
 .wearer-group {
@@ -252,6 +253,7 @@ header {
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid #BD0555;
+    color: #BD0555;
 }
 .carers-container-group {
 	display: none;
