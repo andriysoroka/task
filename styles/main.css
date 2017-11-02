@@ -1,10 +1,10 @@
 @font-face {
     font-family: DinRro-regular;
-    src: url(/fonts/DINPro-Regular_13937.ttf);
+    src: url(../fonts/DINPro-Regular_13937.ttf);
 }
 @font-face {
     font-family: DinRro-medium;
-    src: url(/fonts/DINPro-Medium_13936.ttf);
+    src: url(../fonts/DINPro-Medium_13936.ttf);
 }
 body{
     background: #f5f5f5;
@@ -87,6 +87,7 @@ form  input {
     padding: 12px 16px;
     box-sizing: border-box;
     margin-top: 7px;
+    outline: none;
 }
 .forgot-pass {
     text-align: right;

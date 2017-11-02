@@ -1,14 +1,14 @@
 @font-face {
     font-family: HelveticaNeue;
-    src: url(/fonts/HelveticaNeue.ttf);
+    src: url(../fonts/HelveticaNeue.ttf);
 }
 @font-face {
     font-family: HelveticaNeueBold;
-    src: url(/fonts/helvetica-neue-bold.ttf);
+    src: url(../fonts/helvetica-neue-bold.ttf);
 }
 @font-face {
     font-family: DINRro-Medium;
-    src: url(/fonts/DINPro-Medium_13936.ttf);
+    src: url(../fonts/DINPro-Medium_13936.ttf);
 }
 * {
     padding: 0;
