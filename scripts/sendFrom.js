@@ -19,7 +19,8 @@ let getInfo = () => {
     request.send(JSON.stringify(obj));
     request.onreadystatechange = function () {
         if(request.readyState === XMLHttpRequest.DONE && request.status === 200) {
-            alert("welcome!");			
+            alert("welcome!");	
+            window.location.href = "master.html"
         };
     };
     
@@ -40,7 +41,8 @@ let logIn = () => {
     xhr.send(JSON.stringify(obj));
     xhr.onreadystatechange = function () {
         if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-            alert("welcome!");			
+            alert("welcome!");	
+            window.location.href = "master.html"
         }
     };
     console.log(JSON.stringify(obj));
