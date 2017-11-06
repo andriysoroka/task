@@ -16,9 +16,21 @@ body{
 .logo_container_sing .logo {
     text-align: center;
 }
-.logo img {
-    height: 25px;
-    
+.logo_container_sing .logo img {
+    width: 46.7px;
+    height: 22.3px;
+}
+.logo span {
+    font-family: DINRro-Medium;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #b52f54;
+    position: relative;
+    bottom: 3px;
+}
+.logo a {
+    text-decoration: none;
 }
 .main_container_sing {
     margin-top: 85px;
@@ -80,7 +92,7 @@ form a {
 form  input {
     height: 40px;
     width: 400px;
-    font-family: DinRro-regular;
+    font-family: DinRro-medium;
     border: 1px solid #ececec;
     border-radius: 4px;
     background-color: #ffffff;
@@ -89,13 +101,17 @@ form  input {
     margin-top: 7px;
     outline: none;
 }
-.forgot-pass {
+.forgot_pass {
     text-align: right;
-    margin-bottom: 24px;
+    margin-bottom: 17px;
 }
 p {
-    font-family:  DinRro-regular;
+    font-family:  DinRro-medium;
     font-size: 14px;
+}
+.form-container-acc {
+    text-align: center;
+    margin-top: 24px;
 }
 .space {
     margin-bottom: 24px;
@@ -113,5 +129,9 @@ p {
     bottom: 14px;
     right: 16px;
     color: #b52f54;
+    font-family: Dinpro-medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
 }
 

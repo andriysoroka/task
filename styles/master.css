@@ -52,58 +52,58 @@ header {
 }
 
 .nav-container {
-  width: 45%;
-  height: 100%; 
-    margin-left: 150px;
+    width: 45%;
+    height: 100%; 
+    margin-left: 11%;
+    box-sizing: border-box;
 }
 
 .menu {
     height: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
     font-size: 10px;
     box-sizing: border-box;
 }
 
 .link-container {
-    flex-basis: 135px;
+    width: 160px;
     text-align: center;
     box-sizing: border-box;
 	position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-.link-container:first-of-type, .link-container:last-of-type {
-	flex-basis: 113px;
-}
+
 .notification {
 	height: 10px;
 	width: 11px;
 	background: #B52F54;
 	border-radius: 5px;
 	position: absolute;
-	top: 0;
-	left: 32px;
+	top: 20px;
+	left: 23px;
 }
 .nav-link:hover {
     background: #C1C1C1; 
 }
 
 .nav-link {
+    width: 100%;
     box-sizing: border-box;
     text-decoration: none;
     align-content: center;
-    padding: 34px 27px 17px;
-}
-.nav-link:first-of-type, .nav-link:last-of-type {
-	padding: 34px 15px 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
 }
 
   .nav-link > span {
-    position: relative;
-    bottom: 9px;
     text-transform: uppercase;
-	font-family: HelveticaNeueBold;
+	font-family: HelveticaNeue;
 	  font-size: 11px;
       color: #242424;
       font-weight: 400;
@@ -112,7 +112,7 @@ header {
 }
 .user-container {
     margin-top: 5px;
-    margin-left: 345px;
+    margin-left: 26%;
 }
 .user > img {
   width: 33px;
@@ -155,6 +155,12 @@ header {
 .group-icon:hover {
     background: #E1E1E1;
     cursor: pointer;
+}
+.gray {
+    background: #C1C1C1;
+}
+.gray-for-gruop {
+    background: #E1E1E1;
 }
 .svg-block {
     display: block;
