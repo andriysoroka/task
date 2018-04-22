@@ -1,11 +1,11 @@
-@font-face {
+/*@font-face {
     font-family: DinRro-regular;
     src: url(../fonts/DINPro-Regular_13937.ttf);
 }
 @font-face {
     font-family: DinRro-medium;
     src: url(../fonts/10421.otf);
-}
+}*/
 body{
     background: #f5f5f5;
 }
@@ -21,7 +21,7 @@ body{
     height: 22.3px;
 }
 .logo span {
-    font-family: DINRro-Medium;
+    /*font-family: DINRro-Medium;*/
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
@@ -59,7 +59,7 @@ h1 {
     line-height: 1.33;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.5);
-    font-family: DinRro-medium;
+    /*font-family: DinRro-medium;*/
     margin-bottom: 24px;
 }
 form {
@@ -68,7 +68,7 @@ form {
     text-align: left;
 }
 .form_container {
-    font-family: DinRro-medium;
+    /*font-family: DinRro-medium;*/
     margin-top: 16px;
     font-size: 14px;
 }
@@ -92,7 +92,7 @@ form a {
 form  input {
     height: 40px;
     width: 400px;
-    font-family: DinRro-medium;
+    /*font-family: DinRro-medium;*/
     border: 1px solid #ececec;
     border-radius: 4px;
     background-color: #ffffff;
@@ -106,7 +106,7 @@ form  input {
     margin-bottom: 17px;
 }
 p {
-    font-family:  DinRro-medium;
+    /*font-family:  DinRro-medium;*/
     font-size: 14px;
 }
 .form-container-acc {
@@ -129,7 +129,7 @@ p {
     bottom: 14px;
     right: 16px;
     color: #b52f54;
-    font-family: Dinpro-medium;
+    /*font-family: Dinpro-medium;*/
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;

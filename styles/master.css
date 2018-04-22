@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: HelveticaNeue;
     src: url(../fonts/HelveticaNeue.ttf);
 }
@@ -9,11 +9,11 @@
 @font-face {
     font-family: DINRro-Medium;
     src: url(../fonts/DINPro-Medium_13936.ttf);
-}
+}*/
 * {
     padding: 0;
     margin: 0;
-	font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 }
 button:hover {
     cursor: pointer;
@@ -43,7 +43,7 @@ header {
 .wristo-sign {
     padding-left: 15px;  
     padding-top: 7px;
-    font-family: HelveticaNeueBold;   
+    /*font-family: HelveticaNeueBold;   */
     font-size: 1.4rem;    
     font-weight: 600;    
     color: #b52f54;    
@@ -103,7 +103,7 @@ header {
 
   .nav-link > span {
     text-transform: uppercase;
-	font-family: HelveticaNeue;
+	/*font-family: HelveticaNeue;*/
 	  font-size: 11px;
       color: #242424;
       font-weight: 400;
