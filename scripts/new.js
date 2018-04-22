@@ -46,6 +46,7 @@ export class ShowCategories extends React.Component {
 export class RandomJokes extends React.Component {
 	constructor(props) {
 		super(props);
+		this.isValid = true;
 		this.numb = 1;
 		this.state = {
 			jokes: []
@@ -58,10 +59,15 @@ export class RandomJokes extends React.Component {
 	handleChange(event) {
 		if (event.target.value === undefined || event.target.value === '') {
 			this.numb = 1;
-			return
-		} else if (event.target.value > 10) {
-			
+			this.isValid = false;
+			console.log(`not valid 1`);
+			return 
+		} else if ( isNaN(event.target.value) || event.target.value <= 0 || event.target.value > 10 ) {
+			this.isValid = false;
+			console.log(this.isValid);
+			return 
 		}
+		this.isValid = true;
 		this.numb = event.target.value;
 		this.componentDidMount();
 	};
@@ -91,6 +97,7 @@ export class RandomJokes extends React.Component {
 
 	render() {
 		let postsLoaded = this.state.jokes.value != undefined;
+		let validMessage = this.isValid;
 		console.log(this.state.jokes.value);
 		return(
 			postsLoaded ?
@@ -106,6 +113,7 @@ export class RandomJokes extends React.Component {
 				</div>
 				<div>
 					<button onClick={this.handleClick} > refresh </button>
+					<div> { validMessage ? '' : 'olololo' } </div>
 				</div>
 			</div>
 			:
